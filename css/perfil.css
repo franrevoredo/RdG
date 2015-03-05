@@ -1,0 +1,24 @@
+.textoperfil {
+    font-size: larger;
+    font-weight: 900;
+    
+}
+
+.tituloperfil {
+    font-size: x-large;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.lineatitulo {
+    height: 23px;
+    max-width: 317px;
+}
+
+.formulario {
+    overflow: auto;
+}
+
+li {
+    
+}

@@ -1,0 +1,28 @@
+2015-01-29 03:47:59 // Error Message: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty | Error Code: 42000 | Error Line: 19 
+2015-01-29 03:48:03 // Error Message: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty | Error Code: 42000 | Error Line: 19 
+2015-01-29 03:51:51 // Error Message: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty | Error Code: 42000 | Error Line: 19 
+2015-02-03 21:05:29 // Error Message: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Error Code: 21S01 | Error Line: 59 
+2015-02-03 21:07:30 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'salt' cannot be null | Error Code: 23000 | Error Line: 79 
+2015-02-03 21:18:22 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'estado' cannot be null | Error Code: 23000 | Error Line: 103 
+2015-02-03 21:19:09 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'estado' cannot be null | Error Code: 23000 | Error Line: 103 
+2015-02-03 21:20:28 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'estado' cannot be null | Error Code: 23000 | Error Line: 106 
+2015-02-03 21:21:30 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'estado' cannot be null | Error Code: 23000 | Error Line: 106 
+2015-02-03 21:21:58 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`rdg`.`usuarios`, CONSTRAINT `FK_usuarios_grupos` FOREIGN KEY (`def_group`) REFERENCES `grupos` (`id_grupo`)) | Error Code: 23000 | Error Line: 106 
+2015-02-05 14:48:34 // Error Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`regdate) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?)' at line 1 | Error Code: 42000 | Error Line: 87 
+2015-02-05 16:30:53 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'francisco.r.89@gmail.com-prueba' for key 'mail' | Error Code: 23000 | Error Line: 106 
+2015-02-05 17:02:29 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'francisco.r.89@gmail.com-prueba' for key 'mail' | Error Code: 23000 | Error Line: 106 
+2015-02-05 17:34:21 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'francisco.r.89@gmail.com-prueba' for key 'mail' | Error Code: 23000 | Error Line: 106 
+2015-02-06 14:36:43 // Error Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password=NULL estado='0' WHERE com_code=?' at line 1 | Error Code: 42000 | Error Line: 20 
+2015-02-06 14:37:38 // Error Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password=NULL estado='0' WHERE com_code=?' at line 1 | Error Code: 42000 | Error Line: 19 
+2015-02-06 14:38:37 // Error Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password=NULL estado='0' WHERE com_code=?' at line 1 | Error Code: 42000 | Error Line: 15 
+2015-02-06 18:01:42 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'francisco.r.89@gmail.com' for key 'mail' | Error Code: 23000 | Error Line: 106 
+2015-02-06 18:03:21 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'francisco.r.89@gmail.com' for key 'mail' | Error Code: 23000 | Error Line: 94 
+2015-02-06 18:03:57 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'francisco.r.89@gmail.com' for key 'mail' | Error Code: 23000 | Error Line: 94 
+2015-02-06 18:05:43 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'francisco.r.89@gmail.com' for key 'mail' | Error Code: 23000 | Error Line: 94 
+2015-02-26 06:31:00 // Error Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`user`, `nombre`, `apellido`, `sexo`) VALUES (?,?,?,?) WHERE `id_user`= ?' at line 1 | Error Code: 42000 | Error Line: 27 
+2015-03-02 14:51:00 // Error Message: SQLSTATE[HY000]: General error: 2031  | Error Code: HY000 | Error Line: 37 
+2015-03-02 14:54:36 // Error Message: SQLSTATE[HY000]: General error: 2031  | Error Code: HY000 | Error Line: 37 
+2015-03-02 14:59:56 // Error Message: SQLSTATE[HY000]: General error: 2031  | Error Code: HY000 | Error Line: 37 
+2015-03-02 15:02:29 // Error Message: SQLSTATE[HY000]: General error: 2031  | Error Code: HY000 | Error Line: 37 
+2015-03-03 08:58:19 // Error Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'obs' cannot be null | Error Code: 23000 | Error Line: 75 
+2015-03-04 16:16:49 // Error Message: SQLSTATE[HY000]: General error: 2031  | Error Code: HY000 | Error Line: 25 

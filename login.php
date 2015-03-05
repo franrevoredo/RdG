@@ -11,13 +11,11 @@ if(isset($_SESSION['userid'])){
 	<link href="css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="css/indice.css" rel="stylesheet" type="text/css" />
 	<link href="css/form.css" rel="stylesheet" type="text/css" />
-	<title>RdG</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="js/boton1.js"></script>
+	<title>Login</title>
+	
     </head>
     <body>
 	<div class="logo centrar-imagen"><img src="img/logo.png" width="611" height="87"></div>
-	<div class="boton centrar-imagen" id="boton"><a href="javascript:void(0);"><img src="img/boton1.png" width="344" height="89"></a></div>
 	<form accept-charset="UTF-8" id="form" action="gologin.php" method="post" >
 	    <div id='formulario' class='formulario'>
 		<ul>

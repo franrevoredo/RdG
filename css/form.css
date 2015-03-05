@@ -1,0 +1,94 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+    font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+}
+
+#form label {
+    color: #474747; line-height: 1.6em; text-shadow: 0px 1px 1px #fff; 
+    float: left;
+    width: 100px;
+}
+
+.formulario {
+    border-style: solid;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    float: left; 
+    display: block; 
+    position:  relative;
+    left: 750px;
+    top: 190px;
+    width: 425px; 
+    height: 320px; 
+    padding: 20px; 
+    overflow:  hidden; 
+    box-sizing: border-box; 
+    moz-box-sizing: border-box; 
+}
+
+.titulo-form {
+    font-size: 30;
+}
+.effect7
+{
+    position:relative;       
+
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.effectperf {
+    position:relative;       
+
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+
+    border: 2px solid #474747;
+    border-radius: 2px;
+}
+
+ul { list-style: none; margin: 0; padding: 0; }
+li { margin: .2em 0; }
+
+/***FIRST STYLE THE BUTTON***/
+input#gobutton{
+    position:relative;
+    top:20px;
+    cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+    padding:5px 25px; /*add some padding to the inside of the button*/
+    background: #c11b1b;; /*the colour of the button*/
+    border:1px solid #c11b1b; /*required or the default border for the browser will appear*/
+    /*give the button curved corners, alter the size as required*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*give the button a drop shadow*/
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    /*style the text*/
+    color: #FFFFFF;
+    font-size:1.1em;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input#gobutton:hover, input#gobutton:focus{
+    background-color :#D45F5F;; /*make the background a little darker*/
+    /*reduce the drop shadow size to give a pushed button effect*/
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    box-shadow: 0 0 1px rgba(0,0,0, .75);
+}

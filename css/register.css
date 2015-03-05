@@ -1,0 +1,194 @@
+.logos {
+    position: relative;
+    top: 75px;
+    left: 800px;
+     width: 50%;
+}
+
+
+#wrapper {
+    width: 88%;
+}
+#content {
+    float: left;
+    width: 88%;
+    z-index: 5;
+}
+/*#sidebar {
+    float: right;
+    width: 200px;
+    margin-right: -200px;
+}*/
+#cleared {
+    clear: both;
+}
+
+#wrapper2 {
+    width: 88%;
+}
+#content2 {
+    float: left;
+    width: 100%;
+}
+#sidebar2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 300px;
+    top: 150px;
+    max-height: 34px;
+    width: 50%;
+}
+#cleared2 {
+    clear: both;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;   
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    float: left;
+    color: #eee;
+    margin: 0 5px;
+    padding: 3px;
+    text-decoration: none;
+    border: 1px solid #831608;
+    font: bold 14px Arial, Helvetica;   
+    background-color: #831608;
+    background-image: linear-gradient(#bb413b, #831608);
+    border-radius: 5px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.8); 
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 0 rgba(0, 0, 0, 0.7), 0 2px 2px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset; 
+}
+
+nav a:hover {
+    background-color: #bb413b;
+    background-image: linear-gradient(#831608, #bb413b);
+}
+
+nav a:active {
+    background: #bb413b;
+    position: relative;
+    top: 2px;    
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
+}
+
+nav span {
+    border: 1px dashed #eba1a3;
+    display: inline-block;
+    padding: 4px 15px;
+    cursor: pointer;    
+    background-color: #bb413b;
+    background-image: linear-gradient(#d4463c, #aa2618);
+}
+
+nav a:hover span {   
+    background-color: #bb413b;
+    background-image: linear-gradient(#aa2618, #d4463c);
+}
+
+.margenes {
+    position: relative;
+    top: 25px;
+}
+
+
+* {
+    margin:0;
+    padding:0;
+    /* box-sizing:border-box; */
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+    font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    max-width: 100%;
+}
+
+#form label {
+    color: #474747; line-height: 1.6em; text-shadow: 0px 1px 1px #fff; 
+    float: left;
+    width: 180px;
+}
+
+.formulario {
+    border-style: solid;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    float: left; 
+    display: block; 
+    position:  relative;
+    left: 594px;
+    top: 190px;
+    width: 750px; 
+    height: 360px; 
+    padding: 20px; 
+    padding-left: 35px;
+    /* margin-left: 40; */
+    overflow:  hidden; 
+    box-sizing: border-box; 
+    moz-box-sizing: border-box; 
+    display:block;
+}
+
+.titulo-form {
+    font-size: 30;
+}
+.effect7
+{
+    position:relative;       
+
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.effectperf {
+    position:relative;       
+
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+
+    border: 2px solid #474747;
+    border-radius: 2px;
+}
+
+ul { list-style: none; margin: 0; padding: 0; }
+li { margin: .2em 0; }
+
+.footerad {
+    position: relative;
+    left: 854px;
+    font-family: 'Josefin Sans', cursive;
+    font-weight: bold;
+    max-width: 100%;
+    width: 50%;
+}
+
+hr.style-three {
+    margin-top: 15%;
+    top: 680px;
+    /* left: 7133px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    width: 40%;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.15), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.15), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.15), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.15), rgba(0,0,0,0)); 
+}
